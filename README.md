@@ -10,7 +10,7 @@ In this repository i try to reproduce examples of new ES6 features
 
 ## Features
 
-- Arrow functions – [Demo](#)
+- Arrow functions – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/arrow-functions.MD)
 - Block-level scope – [Demo](#)
 - Classes – [Demo](#)
 - Constants – [Demo](#)
