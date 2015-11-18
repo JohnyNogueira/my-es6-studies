@@ -47,3 +47,63 @@ var UseMyClass = (function (_MyClass) {
 var myInstance = new UseMyClass();
 
 console.log(myInstance.MyNumber);
+//the result is 4
+
+//Bicycle
+
+var Bicycle = (function () {
+	function Bicycle(speed, cadence) {
+		_classCallCheck(this, Bicycle);
+
+		this.speed = speed;
+		this.cadence = cadence;
+	}
+
+	_createClass(Bicycle, [{
+		key: "SetCadence",
+		value: function SetCadence(newCadence) {
+			this.cadence = newCadence;
+		}
+	}, {
+		key: "SpeedUp",
+		value: function SpeedUp() {
+			this.speed++;
+		}
+	}, {
+		key: "ApplyBrake",
+		value: function ApplyBrake() {
+			this.speed--;
+		}
+	}]);
+
+	return Bicycle;
+})();
+
+var MountainBike = (function (_Bicycle) {
+	_inherits(MountainBike, _Bicycle);
+
+	function MountainBike(speed, cadence, height) {
+		_classCallCheck(this, MountainBike);
+
+		var _this2 = _possibleConstructorReturn(this, Object.getPrototypeOf(MountainBike).call(this, speed, cadence));
+
+		_this2.heigth = height;
+
+		_get(Object.getPrototypeOf(MountainBike.prototype), "SpeedUp", _this2).call(_this2); //speed 11
+
+		_get(Object.getPrototypeOf(MountainBike.prototype), "SpeedUp", _this2).call(_this2); //speed 12
+
+		_get(Object.getPrototypeOf(MountainBike.prototype), "ApplyBrake", _this2).call(_this2); //speed 11
+
+		_get(Object.getPrototypeOf(MountainBike.prototype), "SetCadence", _this2).call(_this2, 5); //cadence 5
+		return _this2;
+	}
+
+	return MountainBike;
+})(Bicycle);
+
+var myInstance2 = new MountainBike(10, 2, 5);
+
+console.log(myInstance2);
+
+//now MountainBike have { speed: 11, cadence: 5, heigth: 5}
