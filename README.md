@@ -1,4 +1,4 @@
-# my-es6-studies
+# My ES6 Studies
 
 ##ES6
 
@@ -43,6 +43,7 @@ npm install
  gulp run
   ```
 4. Use node to execute the scripts
+
   ```
  node class.js
   ```
