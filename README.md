@@ -18,7 +18,7 @@ In this repository i try to reproduce examples of new ES6 features
 - Destructuring – [Demo](#)
 - Generators – [Demo](#)
 - Map – [Demo](#)
-- Modules – [Demo](#)
+- Modules – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/modules.MD)
 - Promises – [Demo](#)
 - Set – [Demo](#)
 - Template Strings – [Demo](#)
