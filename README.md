@@ -20,7 +20,7 @@ In this repository i try to reproduce examples of new ES6 features
 - Map – [Demo](#)
 - Modules – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/modules.MD)
 - Promises – [Demo](#)
-- Set – [Demo](#)
+- Set – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/set.MD)
 - Template Strings – [Demo](#)
 
 ## How to use
