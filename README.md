@@ -13,7 +13,7 @@ In this repository i try to reproduce examples of new ES6 features
 - Arrow functions – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/arrow-functions.MD)
 - Block-level scope – [Demo](#)
 - Classes – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/class.MD)
-- Constants – [Demo](#)
+- Constants – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/constants.MD)
 - Default parameters – [Demo](#)
 - Destructuring – [Demo](#)
 - Generators – [Demo](#)
