@@ -44,3 +44,29 @@ var _whatEverName = { whatEverName: "whatEverValue" };
 var named = _whatEverName[name1];
 
 console.log(named); // whatEverValue
+
+var fruits = [{ name: "apple" }, { name: "orage" }, { name: "strawberry" }];
+
+var fruitSalad = fruits.map(function (_ref) {
+  var name = _ref.name;
+  return name;
+});
+
+console.log(fruitSalad);
+
+//[ 'apple', 'orage', 'strawberry' ]
+
+function values() {
+  return {
+    firsValue: 1,
+    secondValue: 2
+  };
+}
+
+var obj = values();
+
+console.log(obj.firsValue);
+//1
+
+console.log(obj.secondValue);
+//2
