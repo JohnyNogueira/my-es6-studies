@@ -15,7 +15,7 @@ In this repository i try to reproduce examples of new ES6 features
 - Classes – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/class.MD)
 - Constants – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/constants.MD)
 - Default parameters – [Demo](#)
-- Destructuring – [Demo](#)
+- Destructuring – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/destructuring.MD)
 - Generators – [Demo](#)
 - Map – [Demo](#)
 - Modules – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/modules.MD)
