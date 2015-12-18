@@ -21,7 +21,7 @@ In this repository i try to reproduce examples of new ES6 features
 - Modules – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/modules.MD)
 - Promises – [Demo](#)
 - Set – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/set.MD)
-- Template Strings – [Demo](#)
+- Template Strings – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/templateString.MD)
 
 ## How to use
 
