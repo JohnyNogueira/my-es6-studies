@@ -48,12 +48,12 @@ try {
     }
 }
 
-var map2 = new Map();
-var simpleObj = {};
-map.set(simpleObj, "johny");
+var fooMap = new Map();
+var emptyObj = {};
+fooMap.set(emptyObj, "johny");
 
-console.log(map.get(simpleObj));
+console.log(fooMap.get(simpleObj));
 //johny
 
-console.log(map.has(simpleObj));
+console.log(fooMap.has(simpleObj));
 //true

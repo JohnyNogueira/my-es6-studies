@@ -21,13 +21,13 @@ for (let [key, value] of map) {
 
 
 
-let map2 = new Map();
-let simpleObj = {};  
-map.set(simpleObj, "johny");
+let fooMap = new Map();
+let emptyObj = {};  
+fooMap.set(emptyObj, "johny");
 
-console.log(map.get(simpleObj)); 
+console.log(fooMap.get(simpleObj)); 
 //johny
 
-console.log(map.has(simpleObj)); 
+console.log(fooMap.has(simpleObj)); 
 //true
 
