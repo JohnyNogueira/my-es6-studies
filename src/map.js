@@ -15,7 +15,19 @@ console.log(map.get("name"));
 console.log(map.size);
 //3
 
+for (let [key, value] of map) {
+    console.log(key, value);
+}
 
 
 
+let map2 = new Map();
+let simpleObj = {};  
+map.set(simpleObj, "johny");
+
+console.log(map.get(simpleObj)); 
+//johny
+
+console.log(map.has(simpleObj)); 
+//true
 

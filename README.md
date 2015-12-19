@@ -14,7 +14,6 @@ In this repository i try to reproduce examples of new ES6 features
 - Block-level scope – [Demo](#)
 - Classes – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/class.MD)
 - Constants – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/constants.MD)
-- Default parameters – [Demo](#)
 - Destructuring – [Demo](https://github.com/JohnyNogueira/my-es6-studies/blob/master/demos/destructuring.MD)
 - Generators – [Demo](#)
 - Map – [Demo](#)
